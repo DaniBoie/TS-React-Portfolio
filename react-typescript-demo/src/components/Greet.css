@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+
+.header {
+  border: 1px solid black;
+  display: grid;
+  grid-template-columns: [logo] 25%  [middle] 25%  [links] 50%;
+  height: 15vmin;
+  align-content: center;
+}
+
+.nameLogo {
+  margin-left: 4vw;
+  margin-top: 7vmin;
+  font-family: 'Alice';
+  font-style: normal;
+  /* font-weight: .25vw; */
+  font-size: 7vmin;
+  /* line-height: 74px; */
+  /* left: calc(50% - 188px/2 - 544px); */
+  filter: drop-shadow(-2px 2px 4px rgba(0, 0, 0, 0.25));
+}
+
+.links {
+  grid-column: links;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: 'Benne';
+  font-size: 2vmax;
+}
