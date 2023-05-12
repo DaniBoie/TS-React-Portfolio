@@ -1,5 +1,5 @@
 import "./Greet.css"
-import { BrowserRouter, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 type GreetProps = {
   name : string
@@ -13,7 +13,8 @@ export const Greet = (props: GreetProps) => {
       </p>
       <nav className="links">
         <p className="link">
-          Projects
+          <Link to="/">Projects</Link>
+          
           
         </p>
         <p className="link">Resume</p>

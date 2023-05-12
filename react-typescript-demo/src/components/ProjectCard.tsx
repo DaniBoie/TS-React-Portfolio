@@ -1,8 +1,11 @@
+import { Link } from "react-router-dom"
 import "./ProjectCard.css"
 
 export const ProjectCard = () => {
   return (
-    <div className="card">
-    </div>
+    <Link to='${}'>
+      <div className="card"></div>
+    </Link>
+    
   )
 }
