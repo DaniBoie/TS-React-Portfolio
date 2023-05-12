@@ -1,4 +1,5 @@
 import "./Greet.css"
+import { BrowserRouter, Route, Link } from "react-router-dom";
 
 type GreetProps = {
   name : string
@@ -11,13 +12,16 @@ export const Greet = (props: GreetProps) => {
         {props.name}
       </p>
       <nav className="links">
-        <p>Projects</p>
-        <p>Resume</p>
-        <p>Contact</p>
+        <p className="link">
+          Projects
+          
+        </p>
+        <p className="link">Resume</p>
+        <p className="link">Contact</p>
       </nav>
 
       <style>
-        @import url('https://fonts.googleapis.com/css2?family=Alice&family=Benne&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Alice&family=Benne&family=Yrsa&display=swap');
       </style>
     </header>
     
