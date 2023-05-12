@@ -20,7 +20,6 @@ export const About = () => {
 
 
       <div className="portfolioImage">
-        {/* <img src={require('../resources/portfolio.JPG')} alt="Daniel Ayala's Face"/> */}
       </div>
 
 

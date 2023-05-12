@@ -4,6 +4,7 @@
   display: flex;
   flex-direction: row;
   height: 50vh;
+  /* align-items: center; */
 }
 
 
@@ -42,10 +43,23 @@
   font-family: 'Yrsa';
   font-size: 3vmin;
   margin-left: 4vw;
+  align-self: center;
 }
 
 .portfolioImage {
-  width: 16vw;
-  height: 16vw;
+  width: 20vw;
+  height: 20vw;
   background: url('../resources/portfolio.JPG');
+  align-self: center;
+}
+
+@media screen and (max-width: 800px) {
+  .info {
+    background-color: rebeccapurple;
+    width: 100vw;
+  }
+
+  .about {
+    flex-direction: column;
+  }
 }
