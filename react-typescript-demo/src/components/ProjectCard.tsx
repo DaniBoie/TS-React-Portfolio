@@ -3,8 +3,10 @@ import "./ProjectCard.css"
 
 export const ProjectCard = () => {
   return (
-    <Link to='${}'>
-      <div className="card"></div>
+    <Link to='/projects'>
+      <div className="card">
+        <p className="innerCard"></p>
+      </div>
     </Link>
     
   )

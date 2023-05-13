@@ -37,8 +37,11 @@
   font-size: 2vmax;
   filter: drop-shadow(-2px 2px 4px rgba(0, 0, 0, 0.25));
 
+
 }
 
 
 .link {
+  color: inherit;
+  text-decoration: inherit;
 }

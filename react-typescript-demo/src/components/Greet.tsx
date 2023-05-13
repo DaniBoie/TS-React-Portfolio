@@ -9,11 +9,11 @@ export const Greet = (props: GreetProps) => {
   return (
     <header className="header">
       <p className="nameLogo">
-        {props.name}
+        <Link className="link"to="/">{props.name}</Link>
       </p>
       <nav className="links">
-        <p className="link">
-          <Link to="/">Projects</Link>
+        <p>
+          <Link to="/projects" className="link">Projects</Link>
           
           
         </p>

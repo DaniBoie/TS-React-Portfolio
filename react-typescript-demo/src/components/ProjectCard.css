@@ -1,6 +1,14 @@
 .card {
-  width: 350px;
-  height: 20vmax;
-  background-color: blueviolet;
+  width: 100%;
+  height: auto;
   margin-bottom: 3vmax;
+  margin-right: 10px;
+}
+
+
+.innerCard {
+  width: 850px;
+  height: 450px;
+  background-color: blueviolet;
+
 }

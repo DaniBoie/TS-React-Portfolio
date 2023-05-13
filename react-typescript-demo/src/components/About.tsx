@@ -25,7 +25,7 @@ export const About = () => {
 
       <div className="slogan">
         <p>
-          Creating innovating, user-focused software solutions to real problems
+          Creating innovative, user-focused software solutions to real problems
         </p>
       </div>
     </div>
