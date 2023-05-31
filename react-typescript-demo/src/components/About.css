@@ -1,36 +1,37 @@
 
 .about {
-  background-color: bisque;
-  display: grid;
-  /* flex-direction: row; */
-  grid-template-columns: 1fr 1fr 1fr;
-  height: fit-content;
-  /* align-items: center; */
+  /* background-color: bisque; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 
 .info {
-  display: grid;
-  grid-template-rows: 50% 50%;
-  width: 30vw;
-  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  margin-right: 4vw;
   text-align: center;
-  
+  flex-basis: 33%;
+  flex-shrink: 0;
 }
 
 .jobTitle {
-  
   font-family: 'Alice';
   font-style: normal;
   font-size: 6vmin;
+
   margin-left: 4vw;
   filter: drop-shadow(-2px 2px 4px rgba(0, 0, 0, 0.25));
+
+  flex-basis: 50%;
 }
 
 .education {
   font-family: 'Yrsa';
   font-size: 3vmin;
   margin-left: 4vw;
+  flex-basis: 50%;
 }
 
 .topText {
@@ -45,25 +46,41 @@
   font-size: 3vmin;
   margin-left: 4vw;
   align-self: center;
+  flex-basis: 33%;
+  flex-shrink: 0;
 }
 
 .portfolioImage {
-  width: 20vw;
-  height: 20vw;
+  width: 10vw;
+  max-width: 275px;
+  /* height: 1080px; */
+  height: 275px;
   background: url('../resources/portfolio.JPG');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   justify-self: center;
   align-self: center;
+  border-radius: 50%;
+  flex-basis: 33%;
+  flex-shrink: 0;
 }
 
-@media screen and (max-width: 800px) {
-  .info {
+@media screen and (max-width: 600px) {
+  /* .info {
     background-color: rebeccapurple;
     width: 100vw;
-  }
+  } */
 
   .about {
-    /* flex-direction: column; */
-    grid-template-rows:1fr 1fr 1fr;
-    grid-template-columns: 0fr;
+    flex-direction: column;
   }
+
+  .portfolioImage {
+    flex-basis: 25vh;
+    border-radius: 50%;
+    max-width: none;
+    width: 50vw;
+  }
+  
 }

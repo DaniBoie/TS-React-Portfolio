@@ -8,14 +8,16 @@ type GreetProps = {
 export const Greet = (props: GreetProps) => {
   return (
     <header className="header">
-      <p className="nameLogo">
+
+      <h1 className="nameLogo">
         <Link className="link"to="/">{props.name}</Link>
-      </p>
+      </h1>
+
+      <div className=""></div>
+
       <nav className="links">
         <p>
           <Link to="/projects" className="link">Projects</Link>
-          
-          
         </p>
         <p className="link">Resume</p>
         <p className="link">Contact</p>

@@ -3,6 +3,8 @@ import "./About.css";
 export const About = () => {
   return (
     <div className="about">
+
+
       <div className="info">
         <p className="jobTitle">Software Engineer and Designer</p>
         <div className="education"> 
@@ -17,10 +19,7 @@ export const About = () => {
         </div>
       </div>
 
-
-
-      <div className="portfolioImage">
-      </div>
+      <div className="portfolioImage"></div>
 
 
       <div className="slogan">
@@ -28,6 +27,8 @@ export const About = () => {
           Creating innovative, user-focused software solutions to real problems
         </p>
       </div>
+
+      
     </div>
   )
 }
