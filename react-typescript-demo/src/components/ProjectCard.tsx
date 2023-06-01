@@ -5,8 +5,7 @@ import { url } from "inspector"
 export const ProjectCard = (props: any) => {
   return (
     <Link to='/projects'>
-      <div className="innerCard" style={{backgroundImage: props.url}}>
-        {/* <div className="innerCard"></div> */}
+      <div className="card" style={{backgroundImage: props.url}}>
       </div>
     </Link>
     

@@ -10,7 +10,7 @@ export const Projects = () => {
 
       <div className="projectCards">
         <ProjectCard url={'url(https://raw.githubusercontent.com/DaniBoie/TS-React-Portfolio/main/react-typescript-demo/src/resources/astro.jpg)'} />
-        <ProjectCard />
+        <ProjectCard url={'url(https://raw.githubusercontent.com/DaniBoie/TS-React-Portfolio/main/react-typescript-demo/src/resources/SecretSauceLogo.png)'}/>
         <ProjectCard />
         <ProjectCard />
         <ProjectCard />
