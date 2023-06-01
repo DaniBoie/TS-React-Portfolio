@@ -1,6 +1,6 @@
 .projectHeader {
   height: 8vh;
-  border: 2px solid black;
+  /* border: 2px solid black; */
   background-color: white;
   display: flex;
   align-items: center;
@@ -10,10 +10,11 @@
 
 .projectLogo {
   
-  margin-left: 4vw;
+  margin-left: 3.5vw;
   font-family: 'Alice';
   font-style: normal;
   font-size: 7vmin;
+  font-weight: lighter;
   filter: drop-shadow(-2px 2px 4px rgba(0, 0, 0, 0.25));
 }
 
@@ -23,6 +24,12 @@
   flex-direction: row;
   flex-wrap: wrap;
   margin: 4vw;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 /* Media Query for changing justify content to center when screen small enough. */
+
+@media screen and (max-width: 760px) {
+  .projectCards{
+    justify-content: center;
+  }
+}

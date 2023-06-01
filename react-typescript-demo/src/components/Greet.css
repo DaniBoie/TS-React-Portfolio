@@ -18,6 +18,7 @@
   margin-left: 40px;
   font-family: 'Alice';
   font-style: normal;
+  font-weight:lighter;
   font-size: xxx-large;
   filter: drop-shadow(-2px 2px 4px rgba(0, 0, 0, 0.25));
 }
@@ -36,4 +37,29 @@
 .link {
   color: inherit;
   text-decoration: inherit;
+}
+
+@media screen and (max-width: 600px) {
+
+  .nameLogo{
+    font-size: xx-large;
+  }
+
+  .links{
+    font-size: medium;
+  }
+
+}
+
+@media screen and (max-width: 350px) {
+
+  .nameLogo {
+    margin-left: 20px;
+    font-size: x-large;
+  }
+
+  .links{
+    font-size: smaller;
+  }
+
 }

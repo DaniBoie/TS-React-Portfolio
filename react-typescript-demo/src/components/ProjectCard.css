@@ -1,14 +1,30 @@
 .card {
-  width: 100%;
-  height: auto;
-  margin-bottom: 3vmax;
-  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+  
+  /* width: 350px;
+  height: auto; */
 }
 
 
 .innerCard {
-  width: 850px;
-  height: 450px;
-  background-color: blueviolet;
+  /* width: 100%;
+  height: auto; */
+  height: 230px;
+  width: 365px;
+  margin: 5px;
+  /* height: auto; */
+  /* background-image: url("../resources/astro.jpg"); */
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 10%;
 
+}
+
+@media screen and (max-width: 350px) {
+  .innerCard {
+    width: 240px;
+    height: 150px;
+  }
 }
